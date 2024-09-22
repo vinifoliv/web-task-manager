@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="An online task manager.">
+    <meta name="author" content="Vinícius Ferreira de Oliveira">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="upper-card">
+            <input type="text" id="input">&nbsp;
+            <button onclick="AddTask()">Add</button>
+        </div>
+        <div class="lower-card">
+            <ul class="task-list" id="task-list">
+                <li class="task">
+                    <input type="checkbox">&nbsp;
+                    <p>Take Fig on a walk</p>&nbsp;
+                    <img src="assets/trash.png" alt="Delete">
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

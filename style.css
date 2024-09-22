@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2a8271;
+}
+
+body {
+    background-image: url(./assets/background.png);
+}
+
+/*CARD*/
+.card {
+    background-color: #2a8271;
+    width: 75%;
+    margin: 5% auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*UPPER CARD*/
+.upper-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.upper-card input, .upper-card button {
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    background-color: white;
+}
+
+.upper-card input {
+    width: 100%;
+    outline: none;
+}
+
+.upper-card button {
+    transition: 0.25s;
+    font-weight: bold;
+    color: #2a8271;
+}
+
+.upper-card button:hover {
+    background-color: #b7eae2;
+}
+
+/*LOWER CARD*/
+.task-list {
+    list-style-type: none;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.task p {
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    transition: 0.25s;
+}
+
+.task p:hover {
+    background-color: #b7eae2;
+}
+
+.task img {
+    width: 20px;
+    height: 20px;
+    transition: 0.25s;
+}
+
+.task img:hover {
+    transform: scale(1.2);
+}
